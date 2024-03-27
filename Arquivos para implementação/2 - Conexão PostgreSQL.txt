@@ -1,0 +1,3 @@
+ "ConnectionStrings": {
+    "ConexaoPostgreSQL": "Host=localhost;Pooling=true;Port=5432;Database=BDMultas;User Id=postgres;Password=root;"
+  },

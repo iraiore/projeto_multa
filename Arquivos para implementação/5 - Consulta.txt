@@ -1,0 +1,67 @@
+<h3>CONSULTA DE MULTAS</h3>
+
+<div class="container">
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <label for="veiculo" class="form-label">CARROS CADASTRADOS:</label>
+    <select  class="form-select" aria-label="Selecione um carro">
+        <option selected>Selecione uma placa</option>
+        @foreach (var item in ??????)
+        {
+            <option value=@item.>@item.</option>
+        }
+    </select>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+    <div class="row align-items-start">
+        <div class="col">
+            <div class="mb-3">
+                 <label for="exampleFormControlInput1" class="form-label">MODELO:</label>
+                 <input  type="text" class="form-control" id="exampleFormControlInput1">
+             </div>
+        </div>
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">MARCA:</label>
+               <input  type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">PLACA:</label>
+                <input  type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+       
+    </div>
+  
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+    @*###################################################################*@
+    
+     <h4 style="text-align:center">MULTAS REGISTRADAS</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Descrição:</th>
+                <th>Valor:</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var multa in ??????)
+            {
+                    <tr>
+                        <td>@multa.</td>
+                        <td>@multa.</td>
+                    </tr>
+            }
+        </tbody>
+    </table>
+</div>

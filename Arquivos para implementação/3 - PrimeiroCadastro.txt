@@ -1,0 +1,68 @@
+<h3>PRIMEIRO REGISTRO DE MULTA DO VEÍCULO</h3>
+
+<div class="container">
+
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">MODELO:</label>
+        <input @bind="" type="text" class="form-control" disabled="@campoBloqueado">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">MARCA:</label>
+        <input @bind="" type="text" class="form-control" disabled="@campoBloqueado">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">PLACA:</label>
+        <input @bind="" type="text" class="form-control" disabled="@campoBloqueado">
+    </div>
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+    @*###################################################################*@
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">DESCRIÇÃO:</label>
+        <input @bind="" type="text" class="form-control" disabled="@campoBloqueado">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">VALOR :</label>
+        <input @bind="" type="number" class="form-control" disabled="@campoBloqueado">
+    </div>
+    @if(enabledButton){
+        <button type="button" class="btn btn-primary">ADICIONAR</button>
+        <button type="button" class="btn btn-warning">CANCELAR</button>
+        <button type="button" class="btn btn-success">SALVAR</button>
+    }else{
+         <div class="alert alert-success" role="alert">
+            Salvo com Sucesso;
+        </div>
+        <button type="button" class="btn btn-primary">NOVO REGISTRO</button>
+    }
+   
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Descrição:</th>
+                <th>Valor:</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var multa in ?????)
+            {
+                <tr>
+                    <td>@multa.</td>
+                    <td>@multa.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

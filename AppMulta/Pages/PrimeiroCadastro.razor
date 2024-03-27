@@ -1,0 +1,117 @@
+﻿@page "/primeiroCadastro"
+@using AppMulta.Models;
+@using AppMulta.Controllers;
+@inject VeiculoController veiculoController
+@inject NavigationManager navegacao
+
+
+<h3>PrimeiroCadastro</h3>
+
+<h3>PRIMEIRO REGISTRO DE MULTA DO VEÍCULO</h3>
+
+<div class="container">
+
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">MODELO:</label>
+        <input @bind="veiculo.Modelo" type="text" class="form-control" disabled="@campoBloqueado">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">MARCA:</label>
+        <input @bind="veiculo.Marca" type="text" class="form-control" disabled="@campoBloqueado">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">PLACA:</label>
+        <input @bind="veiculo.Placa" type="text" class="form-control" disabled="@campoBloqueado">
+    </div>
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+    @*###################################################################*@
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">DESCRIÇÃO:</label>
+        <input @bind="Descricao" type="text" class="form-control" disabled="@campoBloqueado">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">VALOR :</label>
+        <input @bind="ValorMulta" type="number" class="form-control" disabled="@campoBloqueado">
+    </div>
+    @if(enabledButton){
+        <button type="button" class="btn btn-primary" @onclick="AddMutla">ADICIONAR</button>
+        <button type="button" class="btn btn-warning"@onclick="Cancelar">CANCELAR</button>
+        <button type="button" class="btn btn-success"@onclick="Salvar">SALVAR</button>
+    }else{
+         <div class="alert alert-success" role="alert">
+            Salvo com Sucesso;
+        </div>
+        <button type="button" class="btn btn-primary"@onclick="NovoRegistro">NOVO REGISTRO</button>
+    }
+   
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Descrição:</th>
+                <th>Valor:</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var multa in ListaMultas)
+            {
+                <tr>
+                    <td>@multa.Descricao</td>
+                    <td>@multa.ValorMulta</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+@code {
+    public List<Multa> ListaMultas = new List<Multa>();
+    public Veiculo? veiculo = new Veiculo();
+    private bool enabledButton = true;
+    private bool campoBloqueado= false;
+    public string? Descricao { get; set; }
+    public decimal? ValorMulta { get; set; }
+
+    public void AddMutla()
+    {
+        Multa multa = new Multa();
+        multa.Descricao = Descricao;
+        multa.ValorMulta = ValorMulta;
+        ListaMultas.Add(multa);
+        Descricao = null;
+        ValorMulta = null;
+    }
+
+    private async Task Salvar()
+    {
+        veiculo.Multas = ListaMultas;
+        await veiculoController.Add(veiculo);
+        await veiculoController.Salvar();
+        enabledButton = false;
+        campoBloqueado = true;
+    }
+
+    public void Cancelar()
+    {
+          navegacao.NavigateTo("/primeiroCadastro", forceLoad: true);
+    }
+
+    public void NovoRegistro()
+    {
+        navegacao.NavigateTo("/primeiroCadastro", forceLoad: true);
+    }
+
+}

@@ -1,0 +1,17 @@
+CREATE TABLE veiculo (
+    id SERIAL PRIMARY KEY UNIQUE,
+    modelo VARCHAR,
+    marca VARCHAR,
+    placa VARCHAR
+);
+
+CREATE TABLE multa (
+    id SERIAL PRIMARY KEY UNIQUE,
+    descricao VARCHAR,
+    valor_multa DECIMAL,
+    id_veiculo INTEGER
+);
+ 
+ALTER TABLE multa ADD CONSTRAINT FK_multa_3
+    FOREIGN KEY (id_veiculo)
+    REFERENCES veiculo (id);
