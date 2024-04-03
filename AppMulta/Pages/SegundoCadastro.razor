@@ -130,7 +130,9 @@
 
     private async Task Salvar()
     {
-        navegacao.NavigateTo("/segundoCadastro", forceLoad: true);
+        await multaController.AddRanger(multas);
+        await multaController.Salvar();
+        enabledButton = false; campoBloqueado = true;
     }
 
     private async Task NovoRegistro()

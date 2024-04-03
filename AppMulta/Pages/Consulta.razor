@@ -1,0 +1,104 @@
+﻿@page "/consulta"
+@using AppMulta;
+@using AppMulta.Controllers;
+@using AppMulta.Models;
+@using AppMulta.Contexto;
+@inject VeiculoController veiculoController ;
+@inject NavigationManager navegacao;
+
+
+<h3>CONSULTA DE MULTAS</h3>
+
+<div class="container">
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <label for="veiculo" class="form-label">CARROS CADASTRADOS:</label>
+    <select @onchange = "SelecionarVeiculo" class="form-select" aria-label="Selecione um carro">
+        <option selected>Selecione uma placa</option>
+        @foreach (var item in listaVeiculos)
+        {
+            <option value=@item.Id>@item.Placa</option>
+        }
+    </select>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+    <div class="row align-items-start">
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">MODELO:</label>
+                <input @bind = "veiculo.Modelo" type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">MARCA:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">PLACA:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+
+    </div>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+    @*###################################################################*@
+
+    <h4 style="text-align:center">MULTAS REGISTRADAS</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Descrição:</th>
+                <th>Valor:</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var multa in listaMultas)
+            {
+                <tr>
+                    <td>@multa.Descricao</td>
+                    <td>@multa.ValorMulta</td>
+                </tr>
+            }
+            <tr>
+                <td><strong>Total:</strong></td>
+                <td><strong>@TotalMultas</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+@code {
+    public List<Multa> listaMultas = new List<Multa>();
+    public List<Veiculo> listaVeiculos = new List<Veiculo>();
+    public Veiculo? veiculo { get; set; }//veiculos
+    private decimal? TotalMultas = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        veiculo = new Veiculo();
+        var lista = await veiculoController.ListaDeVeiculos();
+        listaVeiculos = lista;
+    }
+
+    public void SelecionarVeiculo(ChangeEventArgs e)
+    {
+        int id = Convert.ToInt32(e.Value);
+        veiculo = listaVeiculos.FirstOrDefault(v => v.Id == id);
+        listaMultas = veiculo.Multas;
+
+        TotalMultas = veiculo.Multas.Sum(p => p.ValorMulta);
+    }
+
+}
