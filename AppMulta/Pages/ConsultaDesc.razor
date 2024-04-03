@@ -1,4 +1,4 @@
-﻿@page "/consultaValor"
+﻿@page "/consultaDesc"
 @using AppMulta;
 @using AppMulta.Controllers;
 @using AppMulta.Models;
@@ -7,7 +7,7 @@
 @inject NavigationManager navegacao;
 
 
-<h3>CONSULTAR MULTAS A PARTIR DE UM VALOR</h3>
+<h3>CONSULTAR MULTAS A PARTIR DE UMA DESCRIÇÃO</h3>
 
 <div class="container">
     <nav class="navbar navbar-light" style="background-color: white"></nav>
@@ -42,12 +42,12 @@
         <div class="col">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">PLACA:</label>
-                <input @bind="veiculo.Placa" type="text" class="form-control" id="exampleFormControlInput1">
+                <input @bind="veiculo.Placa"  type="text" class="form-control" id="exampleFormControlInput1">
             </div>
             <button type="button" class="btn btn-warning" @onclick="Consultar">Consultar</button>
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">CONSULTAR MULTAS MAIORES QUE:</label>
-                <input @bind = "ValorMaiorQue" type="text" class="form-control" id="exampleFormControlInput1">
+                <label for="exampleFormControlInput1" class="form-label">DIGITE A DESCRIÇÃO DA MULTA:</label>
+                <input @bind="Descricao" type="text" class="form-control" id="exampleFormControlInput1">
             </div>
         </div>
 
@@ -89,7 +89,7 @@
     public List<Veiculo> listaVeiculos = new List<Veiculo>();
     public Veiculo? veiculo { get; set; }//veiculos
     private decimal? TotalMultas = 0;
-    private decimal? ValorMaiorQue = 0;
+    private string? Descricao = "";
 
     protected override async Task OnInitializedAsync()
     {
@@ -107,8 +107,9 @@
 
     public void Consultar()
     {
-        listaMultas = veiculo.Multas.Where(p => p.ValorMulta > ValorMaiorQue).ToList();
-        TotalMultas = listaMultas.Where(p => p.ValorMulta > ValorMaiorQue).Sum(p => p.ValorMulta);
+        listaMultas = veiculo.Multas.Where(p => p.Descricao.Contains(Descricao)).ToList();
+        //listaMultas = veiculo.Multas.Where(p => p.ValorMulta > ValorMaiorQue).ToList();
+        TotalMultas = listaMultas.Where(p => p.Descricao.Contains(Descricao)).Sum(p => p.ValorMulta);
     }
 
 }
