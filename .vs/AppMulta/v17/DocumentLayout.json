@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|c:\\users\\mgdbe\\onedrive\\\u00E1rea de trabalho\\pp\\prog_acess_bd\\projeto_multa\\appmulta\\pages\\consultadescmaiorvalor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|solutionrelative:appmulta\\pages\\consultadescmaiorvalor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|c:\\users\\mgdbe\\onedrive\\\u00E1rea de trabalho\\pp\\prog_acess_bd\\projeto_multa\\appmulta\\pages\\consultavalor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|solutionrelative:appmulta\\pages\\consultavalor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|c:\\users\\mgdbe\\onedrive\\\u00E1rea de trabalho\\pp\\prog_acess_bd\\projeto_multa\\appmulta\\models\\multa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|solutionrelative:appmulta\\models\\multa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|c:\\users\\mgdbe\\onedrive\\\u00E1rea de trabalho\\pp\\prog_acess_bd\\projeto_multa\\appmulta\\controllers\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|solutionrelative:appmulta\\controllers\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|c:\\users\\mgdbe\\onedrive\\\u00E1rea de trabalho\\pp\\prog_acess_bd\\projeto_multa\\appmulta\\controllers\\multacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|solutionrelative:appmulta\\controllers\\multacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|c:\\users\\mgdbe\\onedrive\\\u00E1rea de trabalho\\pp\\prog_acess_bd\\projeto_multa\\appmulta\\pages\\consultadesc.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|solutionrelative:appmulta\\pages\\consultadesc.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|c:\\users\\mgdbe\\onedrive\\\u00E1rea de trabalho\\pp\\prog_acess_bd\\projeto_multa\\appmulta\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|solutionrelative:appmulta\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|c:\\users\\mgdbe\\onedrive\\\u00E1rea de trabalho\\pp\\prog_acess_bd\\projeto_multa\\appmulta\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D122D9F-A765-45DB-97D7-D4E755CF332D}|AppMulta\\AppMulta.csproj|solutionrelative:appmulta\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsultaValor.razor",
+              "DocumentMoniker": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Pages\\ConsultaValor.razor",
+              "RelativeDocumentMoniker": "AppMulta\\Pages\\ConsultaValor.razor",
+              "ToolTip": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Pages\\ConsultaValor.razor",
+              "RelativeToolTip": "AppMulta\\Pages\\ConsultaValor.razor",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T14:09:04.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsultaDescMaiorValor.razor",
+              "DocumentMoniker": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Pages\\ConsultaDescMaiorValor.razor",
+              "RelativeDocumentMoniker": "AppMulta\\Pages\\ConsultaDescMaiorValor.razor",
+              "ToolTip": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Pages\\ConsultaDescMaiorValor.razor",
+              "RelativeToolTip": "AppMulta\\Pages\\ConsultaDescMaiorValor.razor",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T01:19:03.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Veiculo.cs",
+              "DocumentMoniker": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Models\\Veiculo.cs",
+              "RelativeDocumentMoniker": "AppMulta\\Models\\Veiculo.cs",
+              "ToolTip": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Models\\Veiculo.cs",
+              "RelativeToolTip": "AppMulta\\Models\\Veiculo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T00:48:26.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Multa.cs",
+              "DocumentMoniker": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Models\\Multa.cs",
+              "RelativeDocumentMoniker": "AppMulta\\Models\\Multa.cs",
+              "ToolTip": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Models\\Multa.cs",
+              "RelativeToolTip": "AppMulta\\Models\\Multa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T00:48:26.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConsultaDesc.razor",
+              "DocumentMoniker": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Pages\\ConsultaDesc.razor",
+              "RelativeDocumentMoniker": "AppMulta\\Pages\\ConsultaDesc.razor",
+              "ToolTip": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Pages\\ConsultaDesc.razor",
+              "RelativeToolTip": "AppMulta\\Pages\\ConsultaDesc.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T00:48:26.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VeiculoController.cs",
+              "DocumentMoniker": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Controllers\\VeiculoController.cs",
+              "RelativeDocumentMoniker": "AppMulta\\Controllers\\VeiculoController.cs",
+              "ToolTip": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Controllers\\VeiculoController.cs",
+              "RelativeToolTip": "AppMulta\\Controllers\\VeiculoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T00:48:26.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\appsettings.json",
+              "RelativeDocumentMoniker": "AppMulta\\appsettings.json",
+              "ToolTip": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\appsettings.json",
+              "RelativeToolTip": "AppMulta\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-07T00:50:21.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MultaController.cs",
+              "DocumentMoniker": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Controllers\\MultaController.cs",
+              "RelativeDocumentMoniker": "AppMulta\\Controllers\\MultaController.cs",
+              "ToolTip": "C:\\Users\\mgdbe\\OneDrive\\\u00C1rea de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\Controllers\\MultaController.cs",
+              "RelativeToolTip": "AppMulta\\Controllers\\MultaController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T00:48:26.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

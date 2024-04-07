@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2021202060026\\Desktop\\AppMulta\\AppMulta\\AppMulta.csproj": {}
+    "C:\\Users\\mgdbe\\OneDrive\\Área de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\AppMulta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2021202060026\\Desktop\\AppMulta\\AppMulta\\AppMulta.csproj": {
+    "C:\\Users\\mgdbe\\OneDrive\\Área de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\AppMulta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2021202060026\\Desktop\\AppMulta\\AppMulta\\AppMulta.csproj",
+        "projectUniqueName": "C:\\Users\\mgdbe\\OneDrive\\Área de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\AppMulta.csproj",
         "projectName": "AppMulta",
-        "projectPath": "C:\\Users\\2021202060026\\Desktop\\AppMulta\\AppMulta\\AppMulta.csproj",
-        "packagesPath": "C:\\Users\\2021202060026\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2021202060026\\Desktop\\AppMulta\\AppMulta\\obj\\",
+        "projectPath": "C:\\Users\\mgdbe\\OneDrive\\Área de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\AppMulta.csproj",
+        "packagesPath": "C:\\Users\\mgdbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgdbe\\OneDrive\\Área de Trabalho\\pp\\prog_acess_bd\\projeto_multa\\AppMulta\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\2021202060026\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mgdbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -69,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

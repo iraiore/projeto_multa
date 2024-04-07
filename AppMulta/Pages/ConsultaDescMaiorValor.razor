@@ -1,0 +1,58 @@
+﻿@page "/consultaDescMaiorValor"
+@using AppMulta;
+@using AppMulta.Controllers;
+@using AppMulta.Models;
+@using AppMulta.Contexto;
+@inject VeiculoController veiculoController ;
+@inject NavigationManager navegacao;
+
+
+<h3>LISTA DE CARROS - MAIORES MULTAS</h3>
+
+<div class="container">
+
+    <h4 style="text-align:center">MULTAS REGISTRADAS</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>NODELO:</th>
+                <th>MARCA:</th>
+                <th>PLACA:</th>
+                <th>DESCRICAO:</th>
+                <th>VALOR:</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var veiculo in listaVeiculos)
+            {
+               //var maiorMulta = veiculo.Multas.OrderByDescending(p => p.ValorMulta).FirstOrDefault().ToString();
+                <tr>
+                    <td>@veiculo.Modelo</td>
+                    <td>@veiculo.Marca</td>
+                    <td>@veiculo.Placa</td>
+                    <td>@veiculo.Multas.OrderByDescending(p => p.ValorMulta).FirstOrDefault()?.Descricao</td>
+                    <td>@veiculo.Multas.Max(p => p.ValorMulta)</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
+
+@code {
+    //public List<Multa> listaMultas = new List<Multa>();
+    public List<Veiculo> listaVeiculos = new List<Veiculo>();
+    public Veiculo? veiculo = new Veiculo();
+    private decimal maiorMulta = 0;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var lista = await veiculoController.ListaDeVeiculos();
+        listaVeiculos = lista;
+
+        //listaMultas = veiculo.Multas;
+
+        //var maiorMulta = veiculo.Multas.OrderByDescending(p => p.ValorMulta).FirstOrDefault().ToString();
+    }
+}

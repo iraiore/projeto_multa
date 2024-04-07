@@ -9,69 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppMulta
 build_property.RootNamespace = AppMulta
-build_property.ProjectDir = C:\Users\2021202060026\Desktop\AppMulta\AppMulta\
+build_property.ProjectDir = C:\Users\mgdbe\OneDrive\Área de Trabalho\pp\prog_acess_bd\projeto_multa\AppMulta\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\2021202060026\Desktop\AppMulta\AppMulta
+build_property.MSBuildProjectDirectory = C:\Users\mgdbe\OneDrive\Área de Trabalho\pp\prog_acess_bd\projeto_multa\AppMulta
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/App.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Pages/Consulta.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Pages/Consulta.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Pages/ConsultaDesc.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Pages/ConsultaDesc.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFEZXNjLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Pages/ConsultaValor.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Pages/ConsultaDescMaiorValor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFEZXNjTWFpb3JWYWxvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Pages/ConsultaValor.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFWYWxvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Pages/Counter.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Pages/FetchData.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Pages/Index.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Pages/PrimeiroCadastro.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Pages/PrimeiroCadastro.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpbWVpcm9DYWRhc3Ryby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Pages/SegundoCadastro.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Pages/SegundoCadastro.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VndW5kb0NhZGFzdHJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Shared/SurveyPrompt.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/_Imports.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Shared/MainLayout.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-o96pf18m6b
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Shared/NavMenu.razor]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-scfkmtvtig
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Pages/Error.cshtml]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021202060026/Desktop/AppMulta/AppMulta/Pages/_Host.cshtml]
+[C:/Users/mgdbe/OneDrive/Área de Trabalho/pp/prog_acess_bd/projeto_multa/AppMulta/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
